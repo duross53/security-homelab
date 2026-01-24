@@ -1,36 +1,113 @@
-# Azure Honeypot with Microsoft Sentinel
+README.md (Copy–Paste)
+# 🥷 Project Name
 
-## Overview
-This project documents the deployment of a Windows-based honeypot in Microsoft Azure to observe 
-unauthorized access attempts and analyze security events using Log Analytics Workspace (LAW) 
-and Microsoft Sentinel.
+Short description of what the project does and the problem it solves.
 
-The goal of this lab is to practice:
-- Log collection and forwarding
-- SIEM configuration
-- KQL querying
-- Log enrichment with geographic data
-- Visualizing attacks using Sentinel workbooks
+---
 
-## Architecture
-- Azure Windows 10 Virtual Machine (Honeypot)
-- Network Security Group (NSG) allowing inbound traffic
-- Log Analytics Workspace (central log repository)
-- Microsoft Sentinel (SIEM)
-- Sentinel Watchlist (GeoIP enrichment)
-- Sentinel Workbook (Attack Map)
+## 📌 Overview
 
-## Skills Demonstrated
-- Cloud security fundamentals (Azure)
-- SIEM deployment and configuration
-- Windows security event analysis
-- KQL (Kusto Query Language)
-- Log enrichment and visualization
-- Incident investigation fundamentals
+This project was built to explore and practice key concepts related to:
+- [Primary domain: frontend, backend, security, data, etc.]
+- [Key focus area]
+- [Learning or problem-solving goal]
 
-## Tools & Technologies
-- Microsoft Azure
-- Windows 10
-- Azure Log Analytics Workspace
-- Microsoft Sentinel
-- KQL
+The emphasis was placed on functionality, internal logic, and maintainability.
+
+---
+
+## 📦 Technologies Used
+
+- Build Tool:
+- Framework / Library:
+- Language:
+- Styling:
+- Testing:
+- Other Tools:
+
+---
+
+## 🦄 Features
+
+### Core Features
+- Feature 1
+- Feature 2
+- Feature 3
+
+### User Interaction
+- Input methods
+- Navigation controls
+- State changes
+
+### Keyboard Shortcuts (if applicable)
+| Action | Shortcut |
+|------|---------|
+| Undo | Ctrl + Z |
+| Redo | Ctrl + Y |
+
+---
+
+## 🧱 Architecture & Design Decisions
+
+High-level explanation of:
+- Application structure
+- State management approach
+- Key abstractions
+- Important trade-offs
+
+Focus on **why**, not just **what**.
+
+---
+
+## 👩‍🍳 Development Process
+
+1. Initial setup and base functionality
+2. Feature iteration and refinement
+3. Handling edge cases and user behavior
+4. Testing and validation
+5. Documentation and review
+
+---
+
+## 🧪 Testing Strategy
+
+- Types of tests implemented
+- Tools used
+- What behaviors were validated
+- Why testing mattered for this project
+
+---
+
+## 📚 What I Learned
+
+### Technical Skills
+- Tool / concept → what was learned
+- Challenge → how it was solved
+
+### Engineering Skills
+- Logical reasoning
+- Debugging
+- Documentation
+- Code organization
+
+---
+
+## 📈 Growth & Takeaways
+
+Summary of personal or technical growth gained from this project.
+
+---
+
+## 🚀 Future Improvements
+
+- Feature ideas
+- Performance optimizations
+- UX improvements
+- Scalability considerations
+
+---
+
+## 📎 Notes
+
+- Known limitations
+- Design decisions made for learning purposes
