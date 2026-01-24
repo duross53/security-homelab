@@ -1,4 +1,3 @@
-README.md (Copy–Paste)
 # 🥷 Project Name
 
 Short description of what the project does and the problem it solves.
