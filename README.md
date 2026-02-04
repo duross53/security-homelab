@@ -22,8 +22,8 @@ Build a safe, isolated home cybersecurity lab to practice offensive and defensiv
 
 ## Networking Configuration
 - Enabled Host-only DHCP in VirtualBox Host Network Manager
-- Assigned IPv4 addresses via DHCP
 ![network settings](https://github.com/user-attachments/assets/c1ed734a-c91d-447c-ae1c-2950d3d43bdf)
+- Assigned IPv4 addresses via DHCP
 
 ### IP Addressing
 - Kali Linux: `192.168.56.101`
