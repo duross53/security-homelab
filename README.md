@@ -19,6 +19,7 @@ Build a safe, isolated home cybersecurity lab to practice offensive and defensiv
 ![Windows VM](https://github.com/user-attachments/assets/6abf7ca2-a88b-4f57-a99d-d0a0841f5521)
 - Configured both VMs to use a Host-only network
 ![adapter settings](https://github.com/user-attachments/assets/042cc638-aa68-4838-9c72-5403c366f535)
+![Kali adapter settings](https://github.com/user-attachments/assets/e35a45c4-f7ce-4ae2-b4a5-d6be646d58da)
 
 ## Networking Configuration
 - Enabled Host-only DHCP in VirtualBox Host Network Manager
