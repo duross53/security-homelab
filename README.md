@@ -1,112 +1,54 @@
-# 🥷 Project Name
+# Project 1: Home Cybersecurity Lab (Beginner)
 
-Short description of what the project does and the problem it solves.
+## Objective
+Build a safe, isolated home cybersecurity lab to practice offensive and defensive security techniques using virtual machines.
 
----
+## Environment
+- Host OS: Windows 10
+- Hypervisor: Oracle VirtualBox
+- Attacker Machine: Kali Linux
+- Target Machine: Windows 10
+- Network Type: Host-only Adapter
+- Subnet: 192.168.56.0/24
 
-## 📌 Overview
+## Initial Setup
+- Installed VirtualBox on Windows host
+- Imported Kali Linux virtual machine
+![kali VM](https://github.com/user-attachments/assets/e7d18302-880a-4d36-b926-4e915bd33717)
+- Created Windows 10 virtual machine
+![Windows VM](https://github.com/user-attachments/assets/6abf7ca2-a88b-4f57-a99d-d0a0841f5521)
+- Configured both VMs to use a Host-only network
+![adapter settings](https://github.com/user-attachments/assets/042cc638-aa68-4838-9c72-5403c366f535)
 
-This project was built to explore and practice key concepts related to:
-- [Primary domain: frontend, backend, security, data, etc.]
-- [Key focus area]
-- [Learning or problem-solving goal]
+## Networking Configuration
+- Enabled Host-only DHCP in VirtualBox Host Network Manager
+- Assigned IPv4 addresses via DHCP
+![network settings](https://github.com/user-attachments/assets/c1ed734a-c91d-447c-ae1c-2950d3d43bdf)
 
-The emphasis was placed on functionality, internal logic, and maintainability.
+### IP Addressing
+- Kali Linux: `192.168.56.101`
+- Windows 10: `192.168.56.102`
 
----
+## Verification
+- Verified IP addresses using:
+  - `ip a` (Kali)
+  - `ipconfig` (Windows)
+- Successfully tested connectivity using ICMP:
+  - Kali → Windows (`ping 192.168.56.102`)
 
-## 📦 Technologies Used
+## Snapshot
+Created a clean baseline snapshot for both virtual machines
+![vbox](https://github.com/user-attachments/assets/0949dac1-b29d-4312-99dc-d7688813d7da)
+- Description:
+  Initial lab baseline with functional host-only networking and verified VM-to-VM connectivity. No scans, attacks, or configuration changes performed.
 
-- Build Tool:
-- Framework / Library:
-- Language:
-- Styling:
-- Testing:
-- Other Tools:
+## Skills Demonstrated
+- Virtual machine setup and management
+- VirtualBox networking (Host-only, DHCP)
+- IPv4 troubleshooting
+- Linux networking commands
+- Windows networking diagnostics
+- Lab documentation and snapshot management
 
----
-
-## 🦄 Features
-
-### Core Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-### User Interaction
-- Input methods
-- Navigation controls
-- State changes
-
-### Keyboard Shortcuts (if applicable)
-| Action | Shortcut |
-|------|---------|
-| Undo | Ctrl + Z |
-| Redo | Ctrl + Y |
-
----
-
-## 🧱 Architecture & Design Decisions
-
-High-level explanation of:
-- Application structure
-- State management approach
-- Key abstractions
-- Important trade-offs
-
-Focus on **why**, not just **what**.
-
----
-
-## 👩‍🍳 Development Process
-
-1. Initial setup and base functionality
-2. Feature iteration and refinement
-3. Handling edge cases and user behavior
-4. Testing and validation
-5. Documentation and review
-
----
-
-## 🧪 Testing Strategy
-
-- Types of tests implemented
-- Tools used
-- What behaviors were validated
-- Why testing mattered for this project
-
----
-
-## 📚 What I Learned
-
-### Technical Skills
-- Tool / concept → what was learned
-- Challenge → how it was solved
-
-### Engineering Skills
-- Logical reasoning
-- Debugging
-- Documentation
-- Code organization
-
----
-
-## 📈 Growth & Takeaways
-
-Summary of personal or technical growth gained from this project.
-
----
-
-## 🚀 Future Improvements
-
-- Feature ideas
-- Performance optimizations
-- UX improvements
-- Scalability considerations
-
----
-
-## 📎 Notes
-
-- Known limitations
-- Design decisions made for learning purposes
+## Outcome
+Successfully deployed a functional home cybersecurity lab ready for future attack and defense exercises.
